@@ -133,13 +133,12 @@ nav button:nth-child(3):hover {
 }
 
 .header-img-div {
+    display: inline-block;
+    width: 30%;
     padding-left: 12rem;
-    height: 30rem;
-    float: left;
 }
 
 .header-img {
-    height: auto;
     width: 30rem;
     border-radius: 50%;
     display: inline-block;
@@ -147,16 +146,16 @@ nav button:nth-child(3):hover {
 
 .header-text-div {
     display: inline-block;
+    height: 30rem;
     width: 60%;
-    margin-top: 5rem;
+    margin-top: ;
     text-align: center;
-    /* height: 30rem; */
 }
 
 .header-text-div p {
     font-size: 1.8rem;
     width: 70%;
-    margin: 1rem auto;
+    margin: 3rem auto -1rem auto;
 }
 
 .intro-section h1 {
